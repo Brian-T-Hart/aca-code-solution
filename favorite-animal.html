@@ -30,7 +30,15 @@
 <body>
     <h1>Wombat</h1>
     <p>My favorite animal is a Wombat because it looks like a giant hampster.</p>
-    <img src="https://i.pinimg.com/originals/ff/3a/10/ff3a10d32dcc459a8e1daebbd04bd8f0.jpg" alt="wombat">
+    <img id="animal-image" src="https://i.pinimg.com/originals/ff/3a/10/ff3a10d32dcc459a8e1daebbd04bd8f0.jpg"
+        alt="wombat">
+
+    <script>
+        let animal = document.getElementById('animal-image');
+        animal.addEventListener('click', () => {
+            alert('You clicked the Wombat!');
+        });
+    </script>
 </body>
 
 </html>
