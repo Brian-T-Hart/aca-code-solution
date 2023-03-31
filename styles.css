@@ -55,7 +55,8 @@ body {
 
 #favorite-animal {
   background-image: url("https://i.pinimg.com/originals/ff/3a/10/ff3a10d32dcc459a8e1daebbd04bd8f0.jpg");
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
 }
 
 @media screen and (max-width: 680px) {
