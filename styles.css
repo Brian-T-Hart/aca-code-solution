@@ -17,6 +17,12 @@ body {
   width: 100%;
 }
 
+h1 {
+  letter-spacing: 4px;
+  text-align: center;
+  text-shadow: 1px 6px black;
+}
+
 .project-container {
   display: flex;
   flex-wrap: wrap;
@@ -26,11 +32,15 @@ body {
 }
 
 .project {
-  border: 2px solid silver;
+  align-items: center;
+  background-color: slategrey;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid black;
   border-radius: 5px;
+  box-shadow: 2px 2px 6px black;
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 200px;
   margin: 3%;
   width: 44%;
@@ -55,8 +65,10 @@ body {
 
 #favorite-animal {
   background-image: url("https://i.pinimg.com/originals/ff/3a/10/ff3a10d32dcc459a8e1daebbd04bd8f0.jpg");
-  background-position: center;
-  background-size: cover;
+}
+
+#encryptor {
+  background-image: url("https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
 @media screen and (max-width: 680px) {
