@@ -44,7 +44,7 @@ document.getElementById('encrypt-form').addEventListener('submit', function(e) {
 
 document.getElementById('decrypt-form').addEventListener('submit', function(e) {
     e.preventDefault();
-    let message = document.getElementById('decrypt').value;
-    document.getElementById('decoded-message').innerHTML = decrypt(message);
+    let message = document.getElementById('decrypt');
+    document.getElementById('decoded-message').innerHTML = decrypt(message.value);
     message.value = "";
 });
