@@ -3,9 +3,7 @@
 }
 
 body {
-    /* background-color: #2B4570; */
     background-color: black;
-    /* color: #E1E5F2; */
     color: green;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 2px;
@@ -16,7 +14,6 @@ body {
 }
 
 form {
-    /* border: 1px solid black; */
     border: 1px solid white;
     border-radius: 5px;
     margin-bottom: 40px;
@@ -24,9 +21,7 @@ form {
 }
 
 input[type="submit"] {
-    /* background-color: #FFE900; */
     background-color: red;
-    /* border-color: #E1E5F2; */
     border-color: green;
     border-radius: 5px;
     border-width: 0;
@@ -56,9 +51,9 @@ textarea {
 }
 
 .message {
-    /* color: #FFE900; */
     color: green;
     font-size: 1.3em;
+    word-wrap: break-word;
 }
 
 @media only screen and (max-width: 700px) {
